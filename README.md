@@ -47,10 +47,13 @@ VisibleVoices is a comprehensive ASL (American Sign Language) learning platform 
 ```
 ASL_CV_PROJECT/
 ├── models/                          # ML model files
-│   ├── baseline/                    # Baseline models (pkl files)
-│   ├── classical/                   # Classical ML models (pkl files)
-│   └── saved_models/                # Deep learning models
-│       └── README.md                # Model storage info (see below)
+│   ├── baseline.py                    
+│   ├── classical.py
+│   ├── deep_learning.py 
+│   ├── explainability.py                  
+│-- saved_models/                
+│       └── baseline_model.pkl
+│       ├── classical_model.pkl                
 │
 ├── scripts/                         # Training and preprocessing scripts
 │   ├── data_preprocessing.py
@@ -80,7 +83,7 @@ ASL_CV_PROJECT/
 ├── main.py                         # Model inference logic
 ├── requirements.txt                # Python dependencies
 ├── Dockerfile                      # Docker configuration for HF Space
-├── README.md                       # This file
+├── README.md                      
 └── start.ipynb                     # Jupyter notebook for experimentation
 ```
 
