@@ -20,7 +20,7 @@ wheels/
 .installed.cfg
 *.egg
 data/
-saved_models/deep_model.pth
+*.pth
 
 # Virtual Environment
 .venv/
